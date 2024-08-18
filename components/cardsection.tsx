@@ -6,7 +6,9 @@ const Cardsection = () => {
     <section className="bg-black text-white py-12 px-6">
       {/* Heading */}
       <h2 className="text-lime-500 text-3xl sm:text-4xl font-bold text-center mb-14 mt-28">
-        Ideate. Implement. Inspire.
+        <span className="block sm:inline">Ideate.</span>
+        <span className="block sm:inline"> Implement.</span>
+        <span className="block sm:inline"> Inspire</span>
       </h2>
 
       {/* Two Sentences with Natural Line Breaks */}
@@ -21,7 +23,7 @@ const Cardsection = () => {
 
       {/* 4 Cards in 2x2 Layout Centered */}
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5  w-full max-w-[90%] md:max-w-[90%] lg:max-w-4xl">
           <Card 
             title="3+" 
             subtitle="years of" 

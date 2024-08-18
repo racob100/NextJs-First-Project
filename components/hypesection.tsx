@@ -2,20 +2,11 @@ import React from "react";
 
 const HypeSection = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white">
-      {/* Green Lines and Moon as Background */}
-      <div
-        className="absolute inset-0 bg-no-repeat bg-center bg-contain"
-        style={{
-          backgroundImage: "url('/greenframe.png'), url('/moon.png')",
-          backgroundPosition: "center 40%, center 100%", // Adjust positions
-          backgroundSize: "95% auto, contain", // Adjust sizes for each image
-        }}
-      />
+    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white bg-center bg-no-repeat bg-[url('/greenframe.png'),_url('/moon.png')] bg-[position:center_40%,_center_bottom] bg-[size:95%_auto,_contain]">
 
       {/* Navbar with Rounded Border */}
-      <nav className="absolute top-6 left-0 right-0 flex justify-center">
-        <div className="flex items-center justify-between border-2 border-gray-300 px-4 sm:px-10 py-2 sm:py-4 rounded-full w-full max-w-full md:max-w-5xl">
+      <nav className="fixed top-6 left-0 right-0 flex justify-center z-50">
+        <div className="flex items-center justify-between border-2 border-gray-300 px-4 sm:px-10 py-2 sm:py-4 rounded-full w-full max-w-[90%] md:max-w-5xl backdrop-blur bg-opacity-60">
           {/* Logo Instead of Text */}
           <img src="/logo1.png" alt="HYPE SQUAD Logo" className="h-6 sm:h-8 md:h-12" />
           <div className="flex space-x-2 sm:space-x-4 lg:space-x-6">
@@ -25,7 +16,7 @@ const HypeSection = () => {
             <button className="bg-gray-800 text-white text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-6 py-1 sm:py-2 rounded-full">
               Services
             </button>
-            <button className="bg-lime-500 text-black text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-6 py-1 sm:py-2 rounded-full">
+            <button className="bg-lime-500 text-black text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-6 py-1 sm:py-2 rounded-full hidden md:block">
               Book a call
             </button>
           </div>

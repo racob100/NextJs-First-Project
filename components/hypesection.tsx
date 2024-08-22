@@ -2,7 +2,7 @@ import React from "react";
 
 const HypeSection = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white bg-center bg-no-repeat bg-[url('/greenframe.png'),_url('/moon.png')] bg-[position:center_40%,_center_bottom] bg-[size:95%_auto,_contain]">
+    <section className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white bg-center bg-no-repeat bg-[url('/greenframe.png'),_url('/moon.png')] bg-[position:center_40%,_center_bottom] lg:bg-[position:center_40%,_center_105%] bg-[size:95%_auto,_contain]">
 
       {/* Navbar with Rounded Border */}
       <nav className="fixed top-6 left-0 right-0 flex justify-center z-50">

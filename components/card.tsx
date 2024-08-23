@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, subtitle, description }) => {
   return (
-    <div className="bg-white text-black p-4 rounded-2xl shadow-md max-w-sm ">
+    <div className="bg-background text-foreground p-4 rounded-2xl shadow-md max-w-sm ">
       {/* Title (First Line) */}
       <h2 className="text-xl sm:text-2xl font-bold mb-1">{title}</h2>
 

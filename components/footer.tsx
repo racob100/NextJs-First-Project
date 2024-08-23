@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="bg-black text-white p-6 sm:p-10 md:p-24">
+    <footer className="bg-secondary text-secondary-foreground p-6 sm:p-10 md:p-24">
       <div className="container mx-auto flex flex-row justify-around items-center">
         <Image 
           src="/Frame 28.png" 

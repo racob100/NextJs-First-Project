@@ -3,9 +3,9 @@ import Card from './card';  // Adjust the path as per your project
 
 const Cardsection = () => {
   return (
-    <section className="bg-black text-white py-12 px-6">
+    <section className="bg-secondary text-secondary-foreground py-12 px-6">
       {/* Heading */}
-      <h2 className="text-lime-500 text-3xl sm:text-4xl font-bold text-center mb-14 mt-28">
+      <h2 className="text-primary text-3xl sm:text-4xl font-bold text-center mb-14 mt-28">
         <span className="block sm:inline">Ideate.</span>
         <span className="block sm:inline"> Implement.</span>
         <span className="block sm:inline"> Inspire</span>

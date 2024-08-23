@@ -8,7 +8,7 @@ import {
 
 function Whitesec() {
   return (
-    <div className='bg-white text-black flex flex-col justify-center items-center p-4 sm:p-6 md:p-10'>
+    <div className='bg-background text-foreground flex flex-col justify-center items-center p-4 sm:p-6 md:p-10'>
       <div className='text-base sm:text-xl md:text-3xl lg:text-5xl font-semibold p-4 sm:p-6 md:p-12'>
         Our Services
       </div>
